@@ -1,5 +1,5 @@
 <h1>Vulnerable Application</h1>
-
+<script>alert("XSS")</script>
 {% if name %}
     <p>Hello {{ name | safe }}</p>
     <p><a href="">New Name?</a></p>
